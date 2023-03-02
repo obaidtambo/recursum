@@ -39,6 +39,15 @@ python preprocess_yelp.py \
 -dir_test </path/to/test/dir> \
 -path_ref </path/to/reference.csv>
 ```
+# for me
+```
+python preprocess_yelp.py \
+-n_processes 16 \
+-dir_train </DATA1/dl/DL316_22_23_2/grp12/MeanSum/datasets/yelp_dataset/processed/train> \
+-dir_val </DATA1/dl/DL316_22_23_2/grp12/MeanSum/datasets/yelp_dataset/processed/val> \
+-dir_test </DATA1/dl/DL316_22_23_2/grp12/MeanSum/datasets/yelp_dataset/processed/test> \
+-path_ref </DATA1/dl/DL316_22_23_2/grp12/recursum/data/summaries_0-200_cleaned.csv>
+```
 
 The preprocessed data will be saved in `data/yelp` by default.
 
